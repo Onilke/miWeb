@@ -1,0 +1,97 @@
+﻿body {
+    background-color: #ffcdd9;
+    margin-left: 120px;
+    background-image: url('../img/Raspberry_Pi_Logo.svg');
+    background-repeat: repeat-y;
+    background-position: 25px top;
+    background-size: 5%;
+    font-family: Arial;
+}
+h1 {
+    color: #409733;
+    text-shadow: 5px -5px 8px;
+    font-family: press-start-2p, sans-serif;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+}
+h2 {
+    background-color: white;
+    text-align: center;
+    width: 500px;
+    text-decoration: none;
+    margin-left: 25%;
+    border-radius: 10px;
+    padding: 20px;
+}
+div{
+    border-style: solid;
+    border-width: 10px;
+    border-color: #b03657;
+    background-color: #e499ad;
+    margin: 10px;
+    padding: 0px;
+    height: 400px;
+}
+div h3 {
+        color: white;
+        background-color: #ca6680;
+        margin-top: 0;
+        padding: 5px;
+    }
+
+@font-face {
+    font-family: 'press-start-2p';
+    src: url('../press-start-2p.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.derecha {
+    border-style: solid;
+    padding: 3px;
+    border-color: white;
+    width: 150pt;
+    float: right;
+    margin: 10px;
+}
+.izquierda{    
+    border-style: solid;
+    padding: 3px;
+    border-color: white;
+    width: 150pt;
+    float: left;
+    margin: 10px;
+}
+hr  {
+    border-style: solid;
+    border-color: #b03657;
+    border-radius: 15px;
+    border-width: 4px;
+    width: 35%;
+}
+
+footer {
+    text-align: right;
+}
+
+.rojo{
+    color: red;
+}
+
+.return{
+    width: 60px;
+}
+
+p{
+    text-indent: 30px;
+}
+
+.lineas {
+    text-decoration:underline overline green 2px;
+}
+
+.azul {
+    color:blue
+}
